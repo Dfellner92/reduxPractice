@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dfellner92/reduxPractice/issues"
   },
-  "homepage": "https://github.com/Dfellner92/reduxPractice#readme"
+  "homepage": "https://github.com/Dfellner92/reduxPractice#readme",
+  "dependencies": {
+    "redux": "^4.1.2"
+  }
 }
