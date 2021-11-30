@@ -1,2 +1,2 @@
 export { buyCake, restockCake } from './cakes/cakeActions';
-
+export { buyIceCream, restockIceCream } from './iceCream/iceCreamActions';
