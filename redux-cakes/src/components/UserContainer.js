@@ -1,11 +1,15 @@
 import { useEffect } from "react";
 import { fetchUsers } from "../redux";
-import { connect } from "react-redux";
+import { connect, useDispatch, useSelector } from "react-redux";
+
 
 const UserContainer = ({ fetchUsers, userData }) => {
   useEffect(() => {
     fetchUsers();
   }, [fetchUsers]);
+
+  const usersData = useSelector(state => state.users.users);
+  console.log(usersData); 
 
   return userData.loading ? (
     <h2>Loading</h2>
